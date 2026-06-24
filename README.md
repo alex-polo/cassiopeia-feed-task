@@ -74,12 +74,9 @@ python run.py
 ```bash
 # Через uv
 uv run pytest
-uv run pytest --html=pytest_reports/report.html
 
 # Через python
 pytest
-pytest --cov=src/feed --cov-report=term-missing
-pytest --html=pytest_reports/report.html
 ```
 
 ## Проверка качества кода
