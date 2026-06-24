@@ -3,29 +3,35 @@
 ## Требования
 
 - Python 3.13+
-- [uv](https://docs.astral.sh/uv/) (опционально, рекомендуется)
+- [uv](https://docs.astral.sh/uv/) (рекомендуется)
 
 ## Описание
 
 ```bash
-cassiopeia-feed-task/
-├── pyproject.toml # Конфигурация проекта
-├── README.md # Документация
-├── run.py # Точка входа для ручного запуска
-├── yml_catalog.xml # Сгенерированный YML-фид (после запуска run.py)
-├── src/
-│ └── feed/
-│ ├── init.py
-│ ├── constants.py # BASE_URL, COMPANY, COMPANY_NAME
-│ ├── data.py # CATEGORIES, PRODUCTS (тестовые данные)
-│ ├── feed_task.py # build_yml() - оркестратор
-│ ├── utils.py # Валидация, парсинг, форматирование
-│ ├── xml_builder.py # Генерация XML через ElementTree
-│ └── views.py # Django view (пример интеграции)
-└── tests/
-├── conftest.py # Фикстуры pytest
-├── test_integration.py # Интеграционные тесты
-└── test_utils.py # Юнит-тесты для utils.py
+cassiopeia-feed-task.zip
+└── cassiopeia-feed-task/
+    ├── pyproject.toml  # Конфигурация проекта
+    ├── README.md   # Документация
+    ├── run.py  # Точка входа для ручного запуска
+    ├── yml_catalog.xml # Сгенерированный YML-фид (после запуска run.py)
+    ├── src/
+    │   └── feed/
+    │       ├── __init__.py
+    │       ├── constants.py # BASE_URL, COMPANY, COMPANY_NAME
+    │       ├── data.py # CATEGORIES, PRODUCTS (тестовые данные)
+    │       ├── feed_task.py # build_yml() - оркестратор
+    │       ├── utils.py    # Валидация, парсинг, форматирование
+    │       ├── xml_builder.py # Генерация XML через ElementTree
+    │       └── views.py # Django view (пример интеграции)
+    ├── tests/
+    │   ├── conftest.py # Фикстуры pytest
+    │   ├── test_integration.py # Интеграционные тесты
+    │   └── test_utils.py # Юнит-тесты для utils.py
+    └── pytest_reports/ # HTML-отчёт о тестировании
+        ├── coverage/
+        │   ├── index.html
+        │   └── ...
+        └── report.html
 ```
 
 ## Установка
