@@ -76,8 +76,6 @@ ignore = [
     "S101",     # Allow asserts for pytest
     "D100",     # Missing docstring in public module
     "D104",     # Missing docstring in public package
-#    "S101",     # Allow asserts for pytest
-#    "ISC001",   # Conflict with formatter
 ]
 
 fixable = ["ALL"]
