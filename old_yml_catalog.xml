@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-06-18 12:00:00+03:00">
+  <shop>
+    <name>Test Shop</name>
+    <company>Test Company</company>
+    <url>https://example.test</url>
+    <currencies>
+      <currency id="RUB" rate="1" />
+    </currencies>
+    <categories>
+      <category id="1">Чай</category>
+      <category id="2">Посуда</category>
+      <category id="1">Чай</category>
+      <category id="1">Чай</category>
+      <category id="2">Посуда</category>
+      <category id="3">Подарочные наборы</category>
+      <category id="1">Чай</category>
+    </categories>
+    <offers>
+      <offer id="101" available="12">
+        <url>https://example.test/products/les-i-travy/</url>
+        <price>490,00</price>
+        <oldprice>590.00</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://example.test/media/tea-101.jpg</picture>
+        <name>Чай "Лес & травы" <сбор №1></name>
+        <description>Вкус: мята & чабрец > классический чай</description>
+      </offer>
+      <offer id="102" available="0">
+        <url>https://example.test/products/glass-teapot/</url>
+        <price>1500,00</price>
+        <oldprice>1400.00</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://example.test/media/teapot-102.jpg</picture>
+        <name>Чайник стеклянный</name>
+        <description>Стеклянный чайник объёмом 800 мл</description>
+      </offer>
+      <offer id="103" available="5">
+        <url>https://example.test/products/hidden-product/</url>
+        <price>350,00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://example.test/media/product-103.jpg</picture>
+        <name>Скрытый товар</name>
+        <description>Товар отключён администратором</description>
+      </offer>
+      <offer id="104" available="30">
+        <url>https://example.test/products/tea-sample/</url>
+        <price>0,00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://example.test/media/product-104.jpg</picture>
+        <name>Пробник чая</name>
+        <description>Бесплатный пробник</description>
+      </offer>
+      <offer id="105" available="4">
+        <url>https://example.test/products/porcelain-cup/</url>
+        <price>700,00</price>
+        <oldprice>900.00</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>None</picture>
+        <name>Чашка фарфоровая</name>
+        <description>Фарфоровая чашка</description>
+      </offer>
+      <offer id="106" available="2">
+        <url>https://example.test/products/gift-set/</url>
+        <price>2500,00</price>
+        <oldprice>3000.00</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://example.test/media/product-106.jpg</picture>
+        <name>Подарочный набор</name>
+        <description>Товар находится в неактивной категории</description>
+      </offer>
+      <offer id="107" available="3">
+        <url>https://example.test/products/milk-oolong/</url>
+        <price>700,50</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://example.test/media/product-107.jpg</picture>
+        <name>Чай улун молочный</name>
+        <description></description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

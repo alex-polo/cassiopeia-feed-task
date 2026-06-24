@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<yml_catalog date="2026-06-18 12:00">
+  <shop>
+    <name>Test Shop</name>
+    <company>Test Company</company>
+    <url>https://example.test</url>
+    <currencies>
+      <currency id="RUB" rate="1" />
+    </currencies>
+    <categories>
+      <category id="1">Чай</category>
+      <category id="2">Посуда</category>
+    </categories>
+    <offers>
+      <offer id="101" available="true">
+        <url>https://example.test/products/les-i-travy/</url>
+        <price>490.00</price>
+        <oldprice>590.00</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://example.test/media/tea-101.jpg</picture>
+        <name>Чай "Лес &amp; травы" &lt;сбор №1&gt;</name>
+        <description>Вкус: мята &amp; чабрец &gt; классический чай</description>
+      </offer>
+      <offer id="102" available="false">
+        <url>https://example.test/products/glass-teapot/</url>
+        <price>1500.00</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://example.test/media/teapot-102.jpg</picture>
+        <name>Чайник стеклянный</name>
+        <description>Стеклянный чайник объёмом 800 мл</description>
+      </offer>
+      <offer id="107" available="true">
+        <url>https://example.test/products/milk-oolong/</url>
+        <price>700.50</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://example.test/media/product-107.jpg</picture>
+        <name>Чай улун молочный</name>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
